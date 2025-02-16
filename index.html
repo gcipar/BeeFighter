@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Fighter - Arcade Action Game</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffd700, #ffb6c1);
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .logo {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        .download-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .app-store-button {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: transform 0.3s;
+        }
+
+        .app-store-button:hover {
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px 0;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px 0;
+        }
+
+        .screenshot {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .title {
+                font-size: 2em;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🐝</div>
+            <h1 class="title">Bee Fighter</h1>
+            <p class="subtitle">An exciting arcade action game!</p>
+        </header>
+
+        <div class="download-section">
+            <a href="#" class="app-store-button">Download on the App Store</a>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">⚡️</div>
+                <h2>Fast-Paced Action</h2>
+                <p>Control your bee and shoot lightning bolts at dangerous spiders!</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🦋</div>
+                <h2>Magical Butterflies</h2>
+                <p>Use magical butterflies to help you in battle!</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🍯</div>
+                <h2>Collect Honey</h2>
+                <p>Gather honey and flowers for bonus points!</p>
+            </div>
+        </div>
+
+        <div class="screenshots">
+            <img src="screenshot1.png" alt="Gameplay Screenshot" class="screenshot">
+            <img src="screenshot2.png" alt="Gameplay Screenshot" class="screenshot">
+            <img src="screenshot3.png" alt="Gameplay Screenshot" class="screenshot">
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🎮</div>
+                <h2>Simple Controls</h2>
+                <p>Easy to learn, hard to master!</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🏆</div>
+                <h2>Compete</h2>
+                <p>Set high scores and challenge your friends!</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">❌</div>
+                <h2>No Ads</h2>
+                <p>Play without interruptions!</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2024 Bee Fighter. All rights reserved.</p>
+            <p>Contact: support@beefighter.com</p>
+        </footer>
+    </div>
+</body>
+</html>
